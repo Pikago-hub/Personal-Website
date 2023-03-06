@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,8 +18,16 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I'm the founder of{" "}
+              <i>
+                <b className="purple">Xyric Tech LLC</b>
+              </i>
+              , and I'm passionate about using technology to make a positive
+              impact on society. My experience as an entrepreneur has equipped
+              me with the skills necessary to launch and grow successful
+              startups. I'm skilled at identifying new opportunities, developing
+              strategies, and building strong teams that are capable of
+              achieving great things.
               <br />
               <br />I am fluent in classics like
               <i>
@@ -28,33 +35,37 @@ function Home2() {
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              Alongside my work in entrepreneurship, I'm deeply involved in
+              &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
-              </i>
+                <b className="purple">AI research. </b>{" "}
+              </i>{" "}
+              I'm committed to exploring new ways to apply AI to real-world
+              problems and to developing innovative solutions that can make a
+              difference in the world.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              I'm an exceptional leader and innovator who is dedicated to using
+              technology to create a better future. My expertise in{" "}
               <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
+                <b className="purple"> entrepreneurship</b>
               </i>
-              &nbsp; like
+              &nbsp; and
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> AI research </b>
               </i>
+              make me a valuable asset to any team or organization, and my
+              passion for making a difference is sure to inspire others to
+              pursue their own goals and aspirations.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img
+                src="https://github.com/pikago-hub.png"
+                className="img-fluid rounded-circle"
+                alt="avatar"
+              />
             </Tilt>
           </Col>
         </Row>
@@ -62,12 +73,12 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="purple"> connect </span>with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Pikago-hub"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +88,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/zhaoyuWu8"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +98,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/zhaoyu-jerry-wu-796890210/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +108,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/jerry.zy.wu/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
