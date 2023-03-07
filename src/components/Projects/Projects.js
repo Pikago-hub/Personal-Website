@@ -2,12 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import Siamese from "../../Assets/Projects/Siamese.png";
+import BMWPHD from "../../Assets/Projects/BMWPHD.png";
+import bethanyWeb from "../../Assets/Projects/bethanyWeb.png";
+import bethanyAPP from "../../Assets/Projects/BethanyAPP.png";
 
 function Projects() {
   return (
@@ -23,48 +21,47 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={Siamese}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Signature Recognition"
+              description="Siamese neural network is a class of neural networks that contains one or more identical networks. Most of the time, it’s two parallel neural networks; sometimes, there are three or more. Both networks have the same parameters and weights. So how does it works? We assign data into pairs and set labels for them—same class pairs as 1 and different class pairs as 0. We are computing similarities based on their different or dot products. Then we will be training the network to minimize the distance between samples of the same class and increase the different class distances."
+              ghLink="https://github.com/Pikago-hub/NCS-Spring2022-Lab"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={BMWPHD}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="BMW Performance Horse"
+              description="I built the BMW Quarter Horses website to showcase our breeding program, which specializes in producing prospects for the reining and reined cowhorse disciplines. Our focus is on breeding horses with exceptional pedigree, conformation, a good mind, and soundness, and we firmly believe in the power of our mares to produce top-quality foals."
+              ghLink="https://github.com/Pikago-hub/BMWPHD-FE"
+              demoLink="http://www.bmwphd.net/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={bethanyWeb}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Bethany Offical Website"
+              description="Welcome to the official website of Bethany Restaurant, built using Vue and Sanity technologies to provide a modern and intuitive user experience. Our website showcases our menu, location, hours of operation, and other important information about our restaurant."
+              ghLink="https://github.com/Pikago-hub/bethanycafeFE/tree/master"
+              demoLink="https://www.arlingtonbethany.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={bethanyAPP}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Bethany Online Order App"
+              description="Introducing the Bethany Restaurant online order app, built with React-Native technology for a streamlined and user-friendly experience. Our app allows you to easily browse our menu, customize your order, and have your food ready for pick-up or delivery with just a few taps on your phone. Enjoy a fast and convenient way to satisfy your cravings with the Bethany Restaurant online order app. Demo requires Expo app on your phone"
+              ghLink="https://github.com/XyricTech/Bethany-App"
+              demoLink="exp://u.expo.dev/update/fb561ef6-779d-46cb-b7bb-63dfc60c7351"
             />
           </Col>
-
+          {/* 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
@@ -84,9 +81,9 @@ function Projects() {
               description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
