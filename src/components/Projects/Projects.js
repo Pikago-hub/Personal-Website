@@ -3,9 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import Siamese from "../../Assets/Projects/Siamese.png";
-import BMWPHD from "../../Assets/Projects/BMWPHD.png";
-import bethanyWeb from "../../Assets/Projects/bethanyWeb.png";
-import bethanyAPP from "../../Assets/Projects/BethanyAPP.png";
+import redbird from "../../Assets/Projects/redbird.png";
+import wowlfg from "../../Assets/Projects/wowlfg.png";
 
 function Projects() {
   return (
@@ -31,59 +30,23 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={BMWPHD}
+              imgPath={wowlfg}
               isBlog={false}
-              title="BMW Performance Horse"
-              description="I built the BMW Quarter Horses website to showcase our breeding program, which specializes in producing prospects for the reining and reined cowhorse disciplines. Our focus is on breeding horses with exceptional pedigree, conformation, a good mind, and soundness, and we firmly believe in the power of our mares to produce top-quality foals."
-              ghLink="https://github.com/Pikago-hub/BMWPHD-FE"
-              demoLink="http://www.bmwphd.net/"
+              title="WOW LFG Dashboard"
+              description="designed and developed a modern, responsive dashboard landing page for WoWLFG, an online platform for World of Warcraft players seeking group activities. My primary goal was to create an intuitive interface that simplifies navigation and enhances user engagement. Leveraging [mention your tech stack—e.g., React, Vue, or other frameworks], I implemented key features such as streamlined user flows, clear calls-to-action, and visually appealing layouts. The result is a user-friendly landing experience that effectively showcases WoWLFG’s value proposition and encourages players to quickly find or create groups that match their interests."
+              demoLink="https://wowlfg.com/#home"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bethanyWeb}
+              imgPath={redbird}
               isBlog={false}
-              title="Bethany Offical Website"
-              description="Welcome to the official website of Bethany Restaurant, built using Vue and Sanity technologies to provide a modern and intuitive user experience. Our website showcases our menu, location, hours of operation, and other important information about our restaurant."
-              ghLink="https://github.com/Pikago-hub/bethanycafeFE/tree/master"
-              demoLink="https://www.arlingtonbethany.com/"
+              title="Redbird All in One System"
+              description="I founded and developed RedBirdTab as an all-in-one system designed to streamline workflows and boost productivity. By integrating multiple features—such as a centralized dashboard, intuitive task management, and real-time collaboration tools—RedBirdTab empowers users to stay organized and focused without juggling multiple platforms. My work involved end-to-end development, from conceptualizing the user experience and interface design to implementing the backend infrastructure and ensuring seamless performance. This holistic approach helped deliver a scalable solution that caters to both individuals and teams, saving time and enabling more efficient project execution."
+              demoLink="https://www.redbirdtab.com/"
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bethanyAPP}
-              isBlog={false}
-              title="Bethany Online Order App"
-              description="Introducing the Bethany Restaurant online order app, built with React-Native technology for a streamlined and user-friendly experience. Our app allows you to easily browse our menu, customize your order, and have your food ready for pick-up or delivery with just a few taps on your phone. Enjoy a fast and convenient way to satisfy your cravings with the Bethany Restaurant online order app. Demo requires Expo app on your phone"
-              ghLink="https://github.com/XyricTech/Bethany-App"
-              demoLink="exp://u.expo.dev/update/fb561ef6-779d-46cb-b7bb-63dfc60c7351"
-            />
-          </Col>
-          {/* 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
-            />
-          </Col> */}
         </Row>
       </Container>
     </Container>

@@ -88,7 +88,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/resume"
@@ -96,15 +96,15 @@ function NavBar() {
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item>
               <Nav.Link
-                href="https://www.xyrictech.com/"
+                href="https://www.redbirdtab.com/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Xyric Tech
+                <ImBlog style={{ marginBottom: "2px" }} /> Redbird Coporation
               </Nav.Link>
             </Nav.Item>
 

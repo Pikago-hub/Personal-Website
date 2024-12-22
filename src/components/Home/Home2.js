@@ -18,9 +18,9 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I'm the founder of{" "}
+              I'm the Co founder of{" "}
               <i>
-                <b className="purple">Xyric Tech LLC</b>
+                <b className="purple">Redbird Corporation</b>
               </i>
               , and I'm passionate about using technology to make a positive
               impact on society. My experience as an entrepreneur has equipped
@@ -98,9 +98,9 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/zhaoyu-jerry-wu-796890210/"
+                  href="https://www.linkedin.com/in/zhaoyujerrywu/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noreferrer" 
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
